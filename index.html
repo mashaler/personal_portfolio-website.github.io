@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>iOS Mobile Developer Portfolio</title>
     <link rel="icon" type="image/ico" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/933e2dc16e.js" crossorigin="anonymous"></script>
-    
-
 </head>
 <body>
     <div id="header">
@@ -17,9 +15,9 @@
             <nav>
                 <img src="images/logo1.png" class="logo1">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a>
+                    <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
@@ -27,123 +25,97 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <div class="text-xl py-1">Hey there 👋</div>
-                <h1>My name is <span>Rolva</span> Mashale<br>From South Africa</h1>
-                <h1>I'm a Data Scientist.</h1>
+                <div class="text-xl py-1">Hello 👋</div>
+                <h1>I'm <span>Rolva Mashale</span><br>iOS Mobile Developer</h1>
+                <h2>Specializing in Swift, iOS app development, and with a foundation in Android as well.</h2>
             </div>
         </div>
     </div>
-    <!-- about -->
+    
+    <!-- About -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/IMG_8944.jpg">
+                    <img src="images/IMG_8944.jpg" alt="Rolva Mashale">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-<p></p>I am a Data Scientist driven by the power of data to unravel insights that drive smart decisions. With a background in Computer Science and Statistics, I blend analytical skills with machine learning and statistical methods to not only predict trends but also to provide solutions to complex business challenges.
-
-My journey in data science began at University, where I honed my skills in data manipulation, visualization, and predictive modeling. Since then, I've worked on projects which have sharpened my abilities in specific skills like Python, R, SQL, Big Data platforms, etc.</p><br>
-
-<p></p>I believe in the transformative potential of data-driven strategies and am passionate about turning data into actionable knowledge. Through my work, I aim to bridge the gap between data and decision-making, ensuring that the insights gleaned are both accessible and influential in shaping business outcomes.
-
-Have a look at my projects below, where I've tackled problems from industry to another industry, always with the goal of extracting meaningful stories from numbers.</p><br>
-
-</p>Let's connect the dots together—reach out if you'd like to talk data!</p>
-                <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experince</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>analytical Skills</span><br>Statistical analysis and inferential statistics<br>Predictive modeling<br>Machine learning algorithms<br>Data mining and data cleaning<br>Experiment design and A/B testing<br>Big data analytics</li>
-                            <li><span>Technical Skills</span><br>Programming languages (Python, R, SQL)<br>Data visualization (Tableau, PowerBI, Matplotlib, Seaborn, ggplot2)<br>Database management (MySQL, PostgreSQL, MongoDB)<br>Data wrangling and manipulation (Pandas, NumPy, Scikit-learn)<br>Machine Learning frameworks (TensorFlow, PyTorch, Keras)<br>Big Data technologies (Hadoop, Spark, Hive)<br>Cloud platforms (AWS, Azure, GCP)<br>Version control systems (Git, SVN)</li>
-                            <li><span>Soft Skills</span><br>Communication skills (both verbal and written)<br>Data storytelling<br>Teamwork and collaboration<br>Time management<br>Leadership and mentoring<br>Adaptability</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2021 - 2022</span><br>Python Developer Training at Zero to Mastery Academy.</li>
-                            <li><span>2019 - 2020</span><br>Student Programmer at University of Limpopo.</li>
-                            <li><span>2022 May</span><br>Complete Data Science BootCamp at Udemy.</li>
-                            <li><span>2023 march - March 2024</span><br>ios Software Developer at The Digital Academy.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2022 - current</span><br>BSc Honours in Computing at University of South Africa.</li>
-                            <li><span>2022 </span><br>The Data Science Course 2022: Complete Data Science BootCamp.</li>
-                            <li><span>2022 </span><br>Complete Python Developer 2023: zero to mastery at Zero to Mastery Academy.</li>
-                            <li><span>2019 - 2021</span><br>BSc Mathematical Science majoring in Statistics and Computer Science at University of Limpopo.</li>
-                        </ul>
-                    </div>
+                    <p>I am a passionate iOS developer, with a strong focus on building user-friendly and scalable mobile applications. I have hands-on experience with Swift, UIKit, SwiftUI, and iOS frameworks like Core Data, Core Animation, and more. In addition to iOS, I also have a good understanding of Android app development, which helps me build cross-platform applications when required.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- services -->
-    <!-- <div id="services">
-        <div class="container">
-            <h1 class="sub-title">Data Science Projects</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>web Design</h2>
-                    <p>Every website should be built with two primary goals. Firstly, it needs to work across all  devices. Secondly, it needs to be fast as possible.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>A website’s look and feel is only one aspect of visual design. Without utilizing language instructions, it must also explain what each icon represents and which ones can be clicked.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Things don’t always go to plan, and you may end up taking a design detour. The design process lends itself to creativity and experimentation, so it’s normal to stumble upon different ideas that hadn’t come up originally. As long as you remain devoted to the user and the business goals, there’s absolutely nothing wrong with veering off track. As Jennifer Morla points out, only you know the difference between an accidental solution and your initial plan. Don’t be afraid to embrace the unexpected!</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+
+    <!-- Tabbed Section for Skills, Experience, and Education -->
+    <div class="container">
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
         </div>
-    </div> -->
-    
-    <!-- portfolio -->
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>iOS Development</span><br>Swift, SwiftUI, UIKit, Core Data, Core Animation, ARKit, RESTful APIs, JSON Parsing, Xcode, CI/CD with Fastlane, Unit Testing, and Automated UI Testing</li>
+                <li><span>Cross-Platform Development</span><br>Flutter, React Native, Firebase, Mobile Development Lifecycle</li>
+                <li><span>Android Development</span><br>Java, Kotlin, Android Studio, Firebase Integration, Android Jetpack</li>
+                <li><span>Version Control & Cloud</span><br>Git, GitHub, Microsoft Azure, Firebase</li>
+                <li><span>Additional Skills</span><br>Data Structures & Algorithms, SQL, REST APIs, App Store Submission</li>
+                <li><span>Soft Skills</span><br>Teamwork, Time Management, Agile Development (Scrum), Communication</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2024 May - Present</span><br>Cloud Computing Trainee at Zensar Technologies</li>
+                <li><span>2023 September - 2024 March</span><br>Software Developer at ABSA Bank (Developed iOS Banking App Features)</li>
+                <li><span>2023 April - 2023 September</span><br>iOS Software Developer at The Digital Academy</li>
+                <li><span>2022</span><br>Python Developer Training at Zero to Mastery Academy</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2023 - Present</span><br>BSc Honours in Computing (Applied Data Science) at the University of South Africa</li>
+                <li><span>2019 - 2021</span><br>BSc Mathematical Science (Major: Computer Science and Statistics) at the University of Limpopo</li>
+                <li><span>Certifications</span><br>Machine Learning (Coursera), iOS Design Patterns (Udemy), Python Developer (Zero to Mastery Academy)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">Data Science Projects</h1>
+            <h1 class="sub-title">Projects</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/image.png">
+                    <img src="images/work-1.png" alt="Weather App">
                     <div class="layer">
-                        <h3>TITANIC - machine learning from disaster</h3>
-                        <p>This data science project aims to build a predictive model to answer the question: "What sorts of people were more likely to survive?" using passenger data from the Titanic disaster.</p>
-                        <a href="https://github.com/mashaler/Data-Science-Projects/blob/main/Titanic%20Survival%20Prediction/Titantic%20Prediction.ipynb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Weather App</h3>
+                        <p>An iOS app that fetches real-time weather data using OpenWeather API, built with Swift and UIKit. Features include location services and custom UI animations.</p>
+                        <a href="https://github.com/mashaler/WeatherApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/image copy.png">
+                    <img src="images/work-2.png" alt="To-Do App">
                     <div class="layer">
-                        <h3>SALARY PREDICTION</h3>
-                        <p>The focus of the Demographic-Based Salary Prediction project is to develop a predictive model that estimates the salaries of individuals from diverse countries and races based on their demographic attributes.</p>
-                        <a href="https://github.com/mashaler/Data-Science-Projects/blob/main/Salary%20Prediction/Salary%20Prediction.ipynb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>To-Do List App</h3>
+                        <p>A productivity app developed in SwiftUI that allows users to manage tasks. Features Core Data for offline persistence and reminders integration with notifications.</p>
+                        <a href="https://github.com/mashaler/ToDoListApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/image copy 2.png">
+                    <img src="images/work-3.png" alt="Android Fitness App">
                     <div class="layer">
-                        <h3>BREAST CANCER PREDICTION</h3>
-                        <p>Breast Cancer Prediction is a classification task aimed at predicting the diagnosis of a breast mass as either malignant or benign.</p>
-                        <a href="https://github.com/mashaler/Data-Science-Projects/blob/main/Breast%20Cancer%20Prediction/Breast%20Cancer%20Prediction.ipynb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Fitness Tracker App (Android)</h3>
+                        <p>Built with Java and Firebase, this app tracks users' fitness activities and provides real-time analysis of workout sessions.</p>
+                        <a href="https://github.com/mashaler/Second_Android_App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/mashaler/Data-Science-Projects/tree/main" class="btn">See more</a>
+            <a href="https://github.com/mashaler" class="btn">See more on GitHub</a>
         </div>
     </div>
-    <!-- contact -->
+
+    <!-- Contact -->
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -158,7 +130,7 @@ Have a look at my projects below, where I've tackled problems from industry to a
                         <a href="https://www.linkedin.com/in/rolva-mashale-2b6613228/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/mashaler"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="images/Final_Curriculum_Vitae_Rolva_Mashale_with_Links.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/Rolva_Mashale_Developer_CV.docx (10).pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -172,9 +144,10 @@ Have a look at my projects below, where I've tackled problems from industry to a
             </div>
         </div>
         <div class="copyright">
-            <p>copyright @ Rolva. Made with <i class="fa-solid fa-heart"></i></p>
+            <p>© 2024 Rolva Mashale. Made with <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
+
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -201,22 +174,22 @@ Have a look at my projects below, where I've tackled problems from industry to a
         }
     </script>
     <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzcLKKnyjh0NP9mO6QcyslvPbBKv-FgXoezPCJP6tkvQEZNyB2aFty21PLGf19hjW6t/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcLKKnyjh0NP9mO6QcyslvPbBKv-FgXoezPCJP6tkvQEZNyB2aFty21PLGf19hjW6t/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML = "Message sent successfully"
-        setTimeout(function(){
-            msg.innerHTML = ""
-        }, 5000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 </html>
