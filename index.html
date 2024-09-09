@@ -32,20 +32,36 @@
         </div>
     </div>
     
-    <!-- About -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/IMG_8944.jpg" alt="Rolva Mashale">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am a passionate iOS developer, with a strong focus on building user-friendly and scalable mobile applications. I have hands-on experience with Swift, UIKit, SwiftUI, and iOS frameworks like Core Data, Core Animation, and more. In addition to iOS, I also have a good understanding of Android app development, which helps me build cross-platform applications when required.</p>
-                </div>
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_8944.jpg" alt="Rolva Mashale">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm <strong>Rolva Mashale</strong>, a passionate <strong>iOS Developer</strong> and <strong>Data Scientist</strong> from South Africa. I specialize in building sleek and high-performance mobile applications, with a primary focus on <strong>iOS development</strong>. My expertise extends beyond iOS into cross-platform development, making me a versatile developer who blends creativity with technical proficiency.</p>
+                
+                <p>I thrive on building user-friendly and scalable applications using modern frameworks such as <strong>Swift</strong>, <strong>UIKit</strong>, and <strong>SwiftUI</strong>. Additionally, my background in <strong>Android development</strong> ensures that I can work effectively across different platforms when needed.</p>
+
+                <h3>What Drives Me?</h3>
+                <p>I'm a lifelong learner who is passionate about solving complex problems with technology. My goal is to deliver mobile experiences that are not only functional but intuitive and enjoyable for users. Whether it’s coding a new feature or optimizing an existing one, I always strive to create clean and efficient code.</p>
+
+                <h3>Core Values:</h3>
+                <ul>
+                    <li><strong>Innovation:</strong> Constantly pushing boundaries and seeking creative solutions to challenges.</li>
+                    <li><strong>Precision:</strong> Attention to detail in every aspect of code and design to ensure the best user experience.</li>
+                    <li><strong>Empathy:</strong> Understanding user needs to build applications that are intuitive and delightful.</li>
+                    <li><strong>Data-Driven:</strong> Leveraging data science to inform smarter, more impactful decision-making in app development.</li>
+                </ul>
+                
+                <p>Let's connect and collaborate on bringing innovative ideas to life!</p>
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- Tabbed Section for Skills, Experience, and Education -->
     <div class="container">
@@ -180,7 +196,7 @@
 
         form.addEventListener('submit', e => {
             e.preventDefault()
-            
+
             msg.innerHTML = "Sending...";
 
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
